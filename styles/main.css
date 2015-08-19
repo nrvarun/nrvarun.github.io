@@ -1,0 +1,93 @@
+html::-webkit-scroll-bar { width: 0 !important; }
+.title {
+	font-family: 'Roboto', sans-serif, helvetica;
+	font-weight: bold;
+	font-size: 16px;
+}
+.fa-custom {
+	font-size: 17px !important;
+}
+.fa-card-social{
+	font-size: 25px;
+}
+.fa-social-btm{
+	font-size: 80px;
+}
+.fa-facebook-square{
+	color:#4e69a2;
+}
+.fa-envelope-square{
+	color:#cc181e;
+}
+.fa-stack-overflow{
+	color: #F47920;
+}
+.fa-twitter-square{
+	color: #55acee;
+}
+.fa-github-alt {
+	color: black;
+}
+.fa-linkedin-square{
+	color: #0079B5;
+}
+
+.social-list-item{
+	min-width: 80px !important;
+	width: 90px;
+}
+.sidenav-toolbar {
+    height: 220px !important;
+    min-height: 128px;
+    max-height: 250px !important;
+    background: url('../images/random_grey.png');
+}
+.sidenav-profile-img{
+	height: 80px;
+	width: 80px;
+	border-radius: 50%;
+}
+.main-toolbar{
+	background-color: rgb(72, 79, 89);
+}
+md-list-item{
+	min-height: 10px !important;
+}
+md-bottom-sheet.md-grid md-list-item {
+	max-width: 20%;
+	height: 80px;
+}
+.md-button{
+	margin: 0px;
+}
+.sidenav-data{
+	font-size: 15px;
+	line-height: 30px;
+}
+.profile-card{
+	width: 320px;
+	height: 520px;
+	box-shadow: 1px 1px 4px grey;
+}
+.profile-card-content{
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+.profile-card-footer{
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+@media screen and (max-width: 750px) {
+
+.fa-social-btm{
+	font-size: 70px;
+}
+
+}
+@media screen and (max-width: 600px) {
+
+.fa-social-btm{
+	font-size: 60px;
+}
+
+}

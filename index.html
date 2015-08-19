@@ -1,0 +1,72 @@
+<!doctype html>
+<html ng-app="profileMaterialApp">
+  <head>
+    <meta charset="utf-8">
+    <title>nr-varun</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width">
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+    <!-- build:css(.) styles/vendor.css -->
+    <!-- bower:css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/angular-material/0.10.1/angular-material.min.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" />
+    <link href='http://fonts.googleapis.com/css?family=Roboto:400,500,700' rel='stylesheet' type='text/css'>
+    <!-- endbower -->
+    <!-- endbuild -->
+    <!-- build:css(.tmp) styles/main.css -->
+    <link rel="stylesheet" href="styles/main.css">
+    <!-- endbuild -->
+  </head>
+  <body>
+  <div layout="column" ng-controller="profileCtrl" layout-fill>
+    <md-toolbar layout="row" class="main-toolbar md-whiteframe-z2">
+      <div class="md-toolbar-tools">
+          <md-button class="md-icon-button" ng-click="toggleLeft()">
+            <i class="fa fa-custom fa-bars"></i>
+          </md-button>
+          <span flex></span>
+          <p class="title">Varun</p>
+          <span flex></span>
+      </div>
+    </md-toolbar>
+    <section layout="row" flex>
+      <md-sidenav layout="column" class="md-sidenav-left md-whiteframe-z1" md-component-id="left">
+        <md-toolbar layout="column" class="sidenav-toolbar md-whiteframe-z2">
+          <md-list>
+            <md-list-item class="md-1-line">
+              <md-button class="md-icon-button" ng-click="toggleLeft()"><i class="fa fa-arrow-left"></i></md-button>
+            </md-list-item>
+            <md-list-item class="md-1-line">
+              <img class="sidenav-profile-img" src="images/profile.jpg">
+            </md-list-item>
+            <md-list-item>
+              <p class="sidenav-data">Varun N R</p>
+            </md-list-item>
+            <md-list-item>
+              <p class="sidenav-data">nr.varun79@gmail.com</p>
+            </md-list-item>
+          </md-list>
+        </md-toolbar>
+      </md-sidenav>
+      <md-content layout-padding flex>
+          <div ng-view=""></div>
+      </md-content>
+    </section>
+  </div>
+    <!-- build:js(.) scripts/vendor.js -->
+    <!-- bower:js -->
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.0-beta.2/angular.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.0-beta.2/angular-animate.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.0-beta.2/angular-aria.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.0-beta.2/angular-route.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-material/0.10.1/angular-material.min.js"></script>
+    <!-- endbower -->
+    <!-- endbuild -->
+
+        <!-- build:js({.tmp,app}) scripts/scripts.js -->
+        <script src="scripts/app.js"></script>
+        <script src="scripts/controllers/main.js"></script>
+        <script src="scripts/controllers/about.js"></script>
+        <!-- endbuild -->
+</body>
+</html>
