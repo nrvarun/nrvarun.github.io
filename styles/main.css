@@ -1,7 +1,6 @@
 html::-webkit-scroll-bar { width: 0 !important; }
-.title {
-	font-family: 'Roboto', sans-serif, helvetica;
-	font-weight: bold;
+body {
+	font-family: helvetica;
 	font-size: 16px;
 }
 .fa-custom {
@@ -31,7 +30,6 @@ html::-webkit-scroll-bar { width: 0 !important; }
 .fa-linkedin-square{
 	color: #0079B5;
 }
-
 .social-list-item{
 	min-width: 80px !important;
 	width: 90px;
@@ -57,8 +55,10 @@ md-bottom-sheet.md-grid md-list-item {
 	max-width: 20%;
 	height: 80px;
 }
-.md-button{
+.social-btn{
 	margin: 0px;
+	padding: 10px;
+	min-width: 60px !important;
 }
 .sidenav-data{
 	font-size: 15px;
@@ -67,7 +67,7 @@ md-bottom-sheet.md-grid md-list-item {
 .profile-card{
 	width: 320px;
 	height: 520px;
-	box-shadow: 1px 1px 4px grey;
+	box-shadow: 1px 1px 10px grey;
 }
 .profile-card-content{
 	padding-top: 0px;
@@ -88,6 +88,20 @@ md-bottom-sheet.md-grid md-list-item {
 
 .fa-social-btm{
 	font-size: 60px;
+}
+
+}
+@media screen and (max-width: 500px) {
+
+.fa-social-btm{
+	font-size: 50px;
+}
+
+}
+@media screen and (max-width: 400px) {
+
+.fa-social-btm{
+	font-size: 40px;
 }
 
 }
