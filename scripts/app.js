@@ -26,7 +26,7 @@ app.config(function ($routeProvider) {
         redirectTo: '/'
       });
 });
-app.controller('profileCtrl',['$scope','$mdSidenav','$mdBottomSheet',function($scope,$mdSidenav,$mdBottomSheet){
+app.controller('profileCtrl',['$scope','$mdSidenav',function($scope,$mdSidenav,$mdBottomSheet){
     $scope.toggleLeft = function(){
         $mdSidenav('left').toggle();
     };
