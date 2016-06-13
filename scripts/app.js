@@ -17,6 +17,11 @@ app.config(function ($routeProvider) {
         controller: 'MainCtrl',
         controllerAs: 'main'
       })
+      .when('/skills', {
+        templateUrl: 'views/skills.html',
+        controller: 'SkillsCtrl',
+        controllerAs: 'skills'
+      })
       .when('/about', {
         templateUrl: 'views/about.html',
         controller: 'AboutCtrl',

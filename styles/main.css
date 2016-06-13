@@ -3,33 +3,6 @@ body {
 	font-family: helvetica;
 	font-size: 16px;
 }
-.fa-custom {
-	font-size: 17px !important;
-}
-.fa-card-social{
-	font-size: 25px;
-}
-.fa-social-btm{
-	font-size: 70px;
-}
-.fa-facebook-square{
-	color:#4e69a2;
-}
-.fa-envelope-square{
-	color:#cc181e;
-}
-.fa-stack-overflow{
-	color: #F47920;
-}
-.fa-twitter-square{
-	color: #55acee;
-}
-.fa-github-alt {
-	color: black;
-}
-.fa-linkedin-square{
-	color: #0079B5;
-}
 .social-list-item{
 	min-width: 80px !important;
 	width: 90px;
@@ -48,18 +21,6 @@ body {
 .main-toolbar{
 	background-color: rgb(72, 79, 89);
 }
-/*md-list-item{
-	min-height: 10px !important;
-}
-md-bottom-sheet.md-grid md-list-item {
-	max-width: 20%;
-	height: 80px;
-}*/
-.social-btn{
-	margin: 0px;
-	padding: 10px;
-	min-width: 60px !important;
-}
 .sidenav-data{
 	font-size: 15px;
 	line-height: 30px;
@@ -77,7 +38,7 @@ md-bottom-sheet.md-grid md-list-item {
 .profile-card{
 	width: 320px;
 	height: auto;
-	box-shadow: 1px 1px 10px grey;
+	box-shadow: 1px 1px 5px grey;
 }
 .profile-card-content{
 	padding-top: 0px;
