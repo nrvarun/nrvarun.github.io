@@ -65,8 +65,10 @@ md-bottom-sheet.md-grid md-list-item {
 	line-height: 30px;
 }
 .profile-image {
+	height: 60px;
+	width: 60px;
 	border-radius: 50%;
-	border: 2px solid lightgrey;
+	border: 5px solid lightgrey;
 }
 .profile-card{
 	width: 320px;
