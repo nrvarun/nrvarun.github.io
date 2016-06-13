@@ -26,6 +26,17 @@ body {
 	line-height: 30px;
 	color: black;
 }
+.sidenav-data___icon {
+	width: 25%;
+	height: auto;
+	background-color: black;
+	color: #FFFFFF;
+}
+.sidenav-data___text {
+	background-color: #FFFFFF;
+	color: black;
+	width: 75%;
+}
 .profile-image {
 	height: 70px;
 	width: 70px;
