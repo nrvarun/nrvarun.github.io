@@ -28,12 +28,7 @@ body {
 	display: inline-block;
 }
 .sidenav-data___icon {
-	width: 25%;
-	height: auto;
-	background-color: black;
-	color: #FFFFFF;
-	display: inline-block;
-	float: left;
+	color: black;
 }
 .sidenav-data___text {
 	background-color: #FFFFFF;
