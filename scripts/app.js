@@ -30,5 +30,4 @@ app.controller('profileCtrl',['$scope','$mdSidenav','$mdBottomSheet',function($s
     $scope.toggleLeft = function(){
         $mdSidenav('left').toggle();
     };
-  };
 }]);
