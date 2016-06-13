@@ -27,6 +27,10 @@ body {
 	color: black;
 	display: inline-block;
 }
+.sidenav-a {
+	text-decoration: none;
+	color: black;
+}
 .sidenav-data___icon {
 	color: black;
 }
