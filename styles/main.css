@@ -33,6 +33,7 @@ body {
 	background-color: black;
 	color: #FFFFFF;
 	display: inline-block;
+	float: left;
 }
 .sidenav-data___text {
 	background-color: #FFFFFF;
