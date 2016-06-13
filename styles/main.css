@@ -85,6 +85,9 @@ body {
 .social-links {
 	background-color: gray;
 }
+.md-content {
+	background-color: rgba(158, 158, 158, 0.2);
+}
 .md-inline-list-icon-label {
   display: inline-block;
   padding-left: 10px;
