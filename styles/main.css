@@ -8,8 +8,8 @@ body {
 	width: 90px;
 }
 .sidenav-toolbar {
-    height: 220px !important;
-    min-height: 128px;
+    height: 120px !important;
+    min-height: 120px;
     max-height: 250px !important;
     background: url('../images/random_grey.png');
 }
