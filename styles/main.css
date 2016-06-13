@@ -70,7 +70,7 @@ md-bottom-sheet.md-grid md-list-item {
 	border-radius: 50%;
 	border: 5px solid lightgrey;
 	position: relative;
-	top:20px;
+	top:40px;
 	z-index: 99;	
 	box-shadow: 2px 2px 5px #888888;
 }
