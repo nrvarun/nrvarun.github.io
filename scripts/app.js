@@ -30,10 +30,5 @@ app.controller('profileCtrl',['$scope','$mdSidenav','$mdBottomSheet',function($s
     $scope.toggleLeft = function(){
         $mdSidenav('left').toggle();
     };
-
-    $scope.showBottomSheetSocial = function() {
-    $mdBottomSheet.show({
-          templateUrl: 'views/bottomSheets/bottomSheetSocialShare.html'
-    });
   };
 }]);
