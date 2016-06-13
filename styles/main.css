@@ -13,6 +13,9 @@ body {
     max-height: 250px !important;
     background: url('../images/random_grey.png');
 }
+.sidenav-text {
+	color: white;
+}
 .sidenav-profile-img{
 	height: 80px;
 	width: 80px;
