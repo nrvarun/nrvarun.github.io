@@ -66,6 +66,10 @@ body {
 .skill-cards {
 	margin-left:auto;margin-right:auto;width:500px;
 }
+.skill-card__title {
+	background-color: rgb(60, 66, 76);
+	height: 40px!important;
+}
 .profile-card-content{
 	padding-top: 0px;
 	padding-bottom: 0px;
