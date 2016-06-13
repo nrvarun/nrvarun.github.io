@@ -25,12 +25,14 @@ body {
 	font-size: 15px;
 	line-height: 30px;
 	color: black;
+	display: inline-block;
 }
 .sidenav-data___icon {
 	width: 25%;
 	height: auto;
 	background-color: black;
 	color: #FFFFFF;
+	display: inline-block;
 }
 .sidenav-data___text {
 	background-color: #FFFFFF;
