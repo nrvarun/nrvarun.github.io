@@ -27,6 +27,10 @@ body {
 	color: black;
 	display: inline-block;
 }
+.img-grayscale {
+	filter: gray; /* IE6-9 */
+    -webkit-filter: grayscale(100%);
+}
 .sidenav-a {
 	text-decoration: none;
 	color: black;
