@@ -63,16 +63,26 @@ body {
 	height: auto;
 	box-shadow: 1px 1px 5px grey;
 }
-.skill-cards {
-	margin-left:auto;margin-right:auto;width:500px;
+.skill-card {
+	width:500px;
+	margin-right: auto;
+	margin-right: auto;
 }
 .skill-card__title {
 	background-color: rgba(72, 79, 89, 0.91);
 	height: 40px!important;
+	padding:5px;
 }
 .skill-card__title-text {
-	padding-top: 5px;
 	color: #FFFFFF;
+	font-size: 1em;
+}
+.skill-card__list-ul {
+	text-align: justify;
+	margin-left: auto;
+	margin-right: auto;
+	list-style-type: none;
+	color: rgba(72, 79, 89, 0.91);
 }
 .profile-card-content{
 	padding-top: 0px;
