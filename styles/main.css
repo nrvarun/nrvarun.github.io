@@ -2,6 +2,7 @@ html::-webkit-scroll-bar { width: 0 !important; }
 body {
 	font-family: helvetica;
 	font-size: 16px;
+	display: flex;
 }
 .social-list-item{
 	min-width: 80px !important;
@@ -113,7 +114,30 @@ body {
 .md-grid-text {
   padding-bottom: 5px; 
 }
-
+.about {
+	text-align: center;
+}
+.about__heading {
+	margin-right: auto;
+	margin-left: auto;
+	font-weight: 300;
+	font-size: 18px;
+}
+.about__content {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.about__content__li {
+	font-size: 14px;
+	text-align: left;
+	padding-bottom: 10px;
+}
+.about__content__li--span {
+	color: white;
+	background-color: grey;
+	padding: 2px;
+}
 @media screen and (max-width: 500px) {
 
 .skill-cards {

@@ -1,3 +1,5 @@
+(function(){
+
 'use strict';
 
 /**
@@ -36,3 +38,5 @@ app.controller('profileCtrl',['$scope','$mdSidenav',function($scope,$mdSidenav,$
         $mdSidenav('left').toggle();
     };
 }]);
+
+})();
