@@ -143,9 +143,16 @@ body {
 	background-color: grey;
 	padding: 2px;
 }
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 550px) {
 
-.skill-cards {
+.skill-card {
+	margin-left:auto;margin-right:auto;width:350px;
+}
+
+}
+@media screen and (max-width: 380px) {
+
+.skill-card {
 	margin-left:auto;margin-right:auto;width:auto;
 }
 
